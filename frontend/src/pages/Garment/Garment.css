@@ -1,0 +1,8 @@
+.add-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-add-button{
+    margin: 30px 10px;
+}

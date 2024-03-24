@@ -1,0 +1,38 @@
+:root{
+    --background-color:#020113;
+}
+.sider{
+    height: 110vh;
+    /* background-color: var(--background-color); */
+}
+.header{
+    /* background-color: var(--background-color); */
+    color: "white";
+    font-size: 2rem;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.link-path{
+    display: block;
+    padding: 10px;
+}
+.link-path:hover{
+    background-color: #eaeaea;
+}
+.sider-icon{
+    color: white;
+}
+.sider-menu{
+    background-color: var(--background-color);
+    color: whitesmoke;
+}
+aside .ant-menu-submenu, aside .ant-menu-item, aside .ant-menu-submenu-selected .ant-menu-submenu-title{
+    color: white !important;
+}
+aside .ant-menu-submenu-open, aside .ant-menu-submenu-selected, aside .ant-menu-submenu-active, aside .ant-menu-item-active, aside .ant-menu-item-selected{
+    background-color: orange !important;
+    color: white !important;
+}
